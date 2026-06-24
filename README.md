@@ -6,6 +6,8 @@ The addon requires the objects contain weight painting/rigging for the armature 
 1. Haing a duplicate version of the armature, with the pose applied to be the rest pose, so one can attach the object to this duplicate armature to get automatic deformations (can unparent and delete the duplicate armature after)
 2. Using weight paint transfer if the object is like a piece of clothing and there is character to pull weight painting from
 
-The button can be found in the 3D viewport under Object -> Parent -> Armature Deform With Current Pose
+The button can be found in the 3D viewport under [Object -> Parent -> Armature Deform With Current Pose]
 
 The button requires an armature be selected and active as well as some selected objects to attach to the armature.
+
+The addon is the python file called "AttachObjectToPosedArmatureAddon.py", so download that file and can in Blender go to [Edit -> preferences -> add ons -> install from disk] in order add the addon to Blender.
