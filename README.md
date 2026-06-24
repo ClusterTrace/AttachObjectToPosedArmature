@@ -7,4 +7,5 @@ The addon requires the objects contain weight painting/rigging for the armature 
 2. Using weight paint transfer if the object is like a piece of clothing and there is character to pull weight painting from
 
 The button can be found in the 3D viewport under Object -> Parent -> Armature Deform With Current Pose
+
 The button requires an armature be selected and active as well as some selected objects to attach to the armature.
