@@ -32,6 +32,7 @@ def main(context):
     for tempObj in selectedObjects:
         armatureModifer = tempObj.modifiers.new("Armature", type='ARMATURE')
         armatureModifer.object = bpy.data.objects[duplicateArmature.name]
+        armatureModifer.use_deform_preserve_volume = True # prevents shrinking when moving back to rest pose
         armatureModifiers.append(armatureModifer)
     # moves the armature modifiers to the top of the modifier stack
     for i in range(len(armatureModifiers)):
